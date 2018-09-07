@@ -1,0 +1,73 @@
+licencias de software:
+
+-licencias privativas
+
+-licencias con ciertos atributos 
+
+-licencias libres
+
+leyes de copyright son una cosalas pero licencias de software son diferentes. 
+licencias que modifican ciertas cosas de las leyes de copyright 
+
+hay licencias de software propietario y licencias de software de codigo abierto
+
+la diferencia entre estas osn las libertades que estas te dan. 
+
+la copia del software no es penalizada por el copyright porque es imposible no copiar informacion o codigo en cualquier 
+programa
+
+en una licencia se renuncia a ciertos derechos de autor en el copyright dandole a los usuarios mas libertad de software
+
+en codigo cerrado. cuando alguien use esa aplicacion toda la informacion que se ingrese se vuelve parte de los dueños 
+de la aplicacion y el usuario cede sus derechos
+
+FSF fue fundada por richard stallman el 4 de octubre de 1985
+
+free software no necesariamente es gratis. pero su codigo es libre. un ejemplo es RedHat
+
+el codigo fuente es gratis pero sus servicios son pagos .
+
+las libertades de software de la FSF
+
+*el codigo no es fisico pero si se puede usar. La FSF lo trata como un opbjeto fisico. el usuario debe poder usarlo 
+ para cualquier cosa.
+
+
+*que se pueda modificar como uno quiera.
+
+*nosotros podemos redistribuir este software.
+
+*que se pueda redistribuir el software modificado.
+
+
+los primeros ataques a los usuarios fueron los sharewere
+
+
+
+
+COMANDOS:
+
+man- manual de ayuda.
+
+ls - listado de archivos de el lugar donde estamos
+
+wich- donde esta ubicado el programawitch(los comandos tambien son programas)
+
+>>
+<< manejo de flujo. 
+
+crear archivos con comando
+
+touch- cambia la fecha de acseso o de modificacion
+
+rm- borra el archivo
+
+mv- mueve el archivo 
+
+cp- copia el archivo
+
+gedit "nombre del archivo"
+
+vim "nombre del archivo"
+
+nano crea y edita el archivo dentro de la terminal
