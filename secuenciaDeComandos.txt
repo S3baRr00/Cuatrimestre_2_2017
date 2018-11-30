@@ -1,0 +1,31 @@
+    0  cambiar configuracion de red a "adaptador puente"
+    1  wget https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.1.8/xampp-linux-x64-7.1.8-0-installer.run?from_af=true
+    2  wget https://download.owncloud.org/community/owncloud-10.0.2.zip
+    3  sudo ./xampp-linux-x64-7.1.8-0-installer.run\?from
+    4  unzip owncloud-10.0.0.zip
+    5  sudo cp -r owncloud/ /opt/lampp/htdocs/
+    6  sudo rm -r owncloud/
+    7  cd /opt/lampp/etc/extra/
+    8  sudo nano httpd-owncloud.conf
+      "				    	    "
+	Alias owncloud/ "/var/www/owncloud/"
+
+	<Directoy /var/www/owncloud/>
+	  Options +FollowSymlinks
+	  AllowOverride All
+
+	<IfModule mod_dav.c>
+	 Dav off
+	</IfModule>
+
+	SetEnv HOME /var/www/owncloud
+	SetEnv HTTP_HOME /var/www/owncloud
+
+	</Directory>
+      "				     	    "
+    9  sudo chmod -R 777 /opt/lampp/
+   10  cd /opt/lampp/htdocs/owncloud/config
+   11  ifconfig ('ver ip')
+   12  sudo nano config.php
+       a. (debajo de 0 => '...',) 1=>'(ping)'
+   13  ingresar a http://localhost/owncloud.
